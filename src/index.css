@@ -1,13 +1,94 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  background-color: #f55a5a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-logo {
+  margin-right: 1rem;
+}
+.nav-title {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  color: #ffffff;
+}
+.card {
+  margin-top: 45px;
+  margin-left: 40px;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-right: 40px;
+}
+.card-image {
+  width: 125px;
+  height: 170px;
+}
+.card-header {
+  display: flex;
+  align-items: center;
+}
+.marker {
+  margin-left: 20px;
+  width: 7px;
+  height: 10px;
+}
+.country-name {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  margin-left: 4px;
+  color: #2b283a;
+}
+.map-link {
+  margin-left: 12px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918e9b;
+}
+.photo-title {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2b283a;
+  margin-left: 20px;
+  margin-top: 4px;
+}
+.date {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10.24px;
+  line-height: 12px;
+  margin-left: 20px;
+  color: #2b283a;
+}
+.description {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 150%;
+  margin-left: 20px;
+  text-align: justify;
+  margin-right: 4px;
+  color: #2b283a;
 }
